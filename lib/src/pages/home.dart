@@ -9,8 +9,7 @@ import '../widgets/todo_item.dart';
 import '../widgets/toolbar.dart';
 
 class HomePage extends HookConsumerWidget {
-  //const HomePage({super.key});
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

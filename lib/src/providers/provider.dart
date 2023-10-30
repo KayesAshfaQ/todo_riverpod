@@ -21,7 +21,7 @@ final todoListFilter = StateProvider((_) => TodoListFilter.all);
 
 /// The number of uncompleted todos
 ///
-/// By using [Provider], this value is cached, making it performant.\
+/// By using [Provider], this value is cached, making it performant.
 /// Even multiple widgets try to read the number of uncompleted todos,
 /// the value will be computed only once (until the todo-list changes).
 ///
